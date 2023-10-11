@@ -1,0 +1,58 @@
+.BackgroundDiv {
+  background-color: hsl(235, 18%, 26%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainDiv {
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+  margin: 100px;
+}
+.mainDiv p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.paragraphDiv {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.imgDiv {
+  padding: 30px;
+}
+.iconItemDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.ButtonDiv {
+  margin-top: 30px;
+}
+.Button {
+  background-color: hsl(234, 29%, 20%);
+}
+.Button:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+.messageDiv {
+  background-color: white;
+  margin: 100px;
+  border-radius: 30px;
+}
